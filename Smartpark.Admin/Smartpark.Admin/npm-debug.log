@@ -1,0 +1,636 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files (x86)\\Microsoft Visual Studio 14.0\\Web\\External\\node.exe',
+1 verbose cli   'C:\\Program Files (x86)\\Microsoft Visual Studio 14.0\\Web\\External\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install' ]
+2 info using npm@3.3.4
+3 info using node@v5.4.1
+4 silly loadCurrentTree Starting
+5 silly install loadCurrentTree
+6 silly install readLocalPackageData
+7 silly install normalizeTree
+8 silly loadCurrentTree Finishing
+9 silly loadIdealTree Starting
+10 silly install loadIdealTree
+11 silly cloneCurrentTree Starting
+12 silly install cloneCurrentTreeToIdealTree
+13 silly cloneCurrentTree Finishing
+14 silly loadShrinkwrap Starting
+15 silly install loadShrinkwrap
+16 silly loadShrinkwrap Finishing
+17 silly loadAllDepsIntoIdealTree Starting
+18 silly install loadAllDepsIntoIdealTree
+19 silly fetchNamedPackageData angular
+20 silly mapToRegistry name angular
+21 silly mapToRegistry using default registry
+22 silly mapToRegistry registry https://registry.npmjs.org/
+23 silly mapToRegistry uri https://registry.npmjs.org/angular
+24 silly fetchNamedPackageData angular-route
+25 silly mapToRegistry name angular-route
+26 silly mapToRegistry using default registry
+27 silly mapToRegistry registry https://registry.npmjs.org/
+28 silly mapToRegistry uri https://registry.npmjs.org/angular-route
+29 silly fetchNamedPackageData angular-component-router
+30 silly mapToRegistry name angular-component-router
+31 silly mapToRegistry using default registry
+32 silly mapToRegistry registry https://registry.npmjs.org/
+33 silly mapToRegistry uri https://registry.npmjs.org/angular-component-router
+34 silly fetchNamedPackageData bootstrap
+35 silly mapToRegistry name bootstrap
+36 silly mapToRegistry using default registry
+37 silly mapToRegistry registry https://registry.npmjs.org/
+38 silly mapToRegistry uri https://registry.npmjs.org/bootstrap
+39 silly fetchNamedPackageData angular-mocks
+40 silly mapToRegistry name angular-mocks
+41 silly mapToRegistry using default registry
+42 silly mapToRegistry registry https://registry.npmjs.org/
+43 silly mapToRegistry uri https://registry.npmjs.org/angular-mocks
+44 verbose request uri https://registry.npmjs.org/angular-component-router
+45 verbose request no auth needed
+46 info attempt registry request try #1 at 6:05:46 PM
+47 verbose request id c5d66142ca9e38f5
+48 http request GET https://registry.npmjs.org/angular-component-router
+49 verbose request uri https://registry.npmjs.org/angular
+50 verbose request no auth needed
+51 info attempt registry request try #1 at 6:05:46 PM
+52 verbose etag "8CHKXD10QU7LCUN887XZR72C"
+53 http request GET https://registry.npmjs.org/angular
+54 verbose request uri https://registry.npmjs.org/bootstrap
+55 verbose request no auth needed
+56 info attempt registry request try #1 at 6:05:46 PM
+57 verbose etag "7ZRAOM1O81TNVYDGO5JR3MGNZ"
+58 http request GET https://registry.npmjs.org/bootstrap
+59 verbose request uri https://registry.npmjs.org/angular-route
+60 verbose request no auth needed
+61 info attempt registry request try #1 at 6:05:46 PM
+62 verbose etag "8VM9N74K4IPZ9EH52RQ1B39Q5"
+63 http request GET https://registry.npmjs.org/angular-route
+64 verbose request uri https://registry.npmjs.org/angular-mocks
+65 verbose request no auth needed
+66 info attempt registry request try #1 at 6:05:46 PM
+67 verbose etag "14Z5IB11ZC55P66EUSNMIZ9LS"
+68 http request GET https://registry.npmjs.org/angular-mocks
+69 http 304 https://registry.npmjs.org/angular-route
+70 verbose headers { date: 'Mon, 31 Oct 2016 12:35:38 GMT',
+70 verbose headers   via: '1.1 varnish',
+70 verbose headers   'cache-control': 'max-age=300',
+70 verbose headers   etag: '"8VM9N74K4IPZ9EH52RQ1B39Q5"',
+70 verbose headers   age: '183',
+70 verbose headers   connection: 'keep-alive',
+70 verbose headers   'x-served-by': 'cache-sin6925-SIN',
+70 verbose headers   'x-cache': 'HIT',
+70 verbose headers   'x-cache-hits': '2',
+70 verbose headers   'x-timer': 'S1477917338.979710,VS0,VE0',
+70 verbose headers   vary: 'Accept-Encoding' }
+71 silly get cb [ 304,
+71 silly get   { date: 'Mon, 31 Oct 2016 12:35:38 GMT',
+71 silly get     via: '1.1 varnish',
+71 silly get     'cache-control': 'max-age=300',
+71 silly get     etag: '"8VM9N74K4IPZ9EH52RQ1B39Q5"',
+71 silly get     age: '183',
+71 silly get     connection: 'keep-alive',
+71 silly get     'x-served-by': 'cache-sin6925-SIN',
+71 silly get     'x-cache': 'HIT',
+71 silly get     'x-cache-hits': '2',
+71 silly get     'x-timer': 'S1477917338.979710,VS0,VE0',
+71 silly get     vary: 'Accept-Encoding' } ]
+72 verbose etag https://registry.npmjs.org/angular-route from cache
+73 verbose get saving angular-route to C:\Users\Shreedhar\AppData\Roaming\npm-cache\registry.npmjs.org\angular-route\.cache.json
+74 http 304 https://registry.npmjs.org/bootstrap
+75 verbose headers { date: 'Mon, 31 Oct 2016 12:35:38 GMT',
+75 verbose headers   via: '1.1 varnish',
+75 verbose headers   'cache-control': 'max-age=300',
+75 verbose headers   etag: '"7ZRAOM1O81TNVYDGO5JR3MGNZ"',
+75 verbose headers   age: '171',
+75 verbose headers   connection: 'keep-alive',
+75 verbose headers   'x-served-by': 'cache-sin6926-SIN',
+75 verbose headers   'x-cache': 'HIT',
+75 verbose headers   'x-cache-hits': '1',
+75 verbose headers   'x-timer': 'S1477917338.988259,VS0,VE0',
+75 verbose headers   vary: 'Accept-Encoding' }
+76 silly get cb [ 304,
+76 silly get   { date: 'Mon, 31 Oct 2016 12:35:38 GMT',
+76 silly get     via: '1.1 varnish',
+76 silly get     'cache-control': 'max-age=300',
+76 silly get     etag: '"7ZRAOM1O81TNVYDGO5JR3MGNZ"',
+76 silly get     age: '171',
+76 silly get     connection: 'keep-alive',
+76 silly get     'x-served-by': 'cache-sin6926-SIN',
+76 silly get     'x-cache': 'HIT',
+76 silly get     'x-cache-hits': '1',
+76 silly get     'x-timer': 'S1477917338.988259,VS0,VE0',
+76 silly get     vary: 'Accept-Encoding' } ]
+77 verbose etag https://registry.npmjs.org/bootstrap from cache
+78 verbose get saving bootstrap to C:\Users\Shreedhar\AppData\Roaming\npm-cache\registry.npmjs.org\bootstrap\.cache.json
+79 http 304 https://registry.npmjs.org/angular-mocks
+80 verbose headers { date: 'Mon, 31 Oct 2016 12:35:39 GMT',
+80 verbose headers   via: '1.1 varnish',
+80 verbose headers   'cache-control': 'max-age=300',
+80 verbose headers   etag: '"14Z5IB11ZC55P66EUSNMIZ9LS"',
+80 verbose headers   age: '199',
+80 verbose headers   connection: 'keep-alive',
+80 verbose headers   'x-served-by': 'cache-sin6923-SIN',
+80 verbose headers   'x-cache': 'HIT',
+80 verbose headers   'x-cache-hits': '3',
+80 verbose headers   'x-timer': 'S1477917339.007882,VS0,VE0',
+80 verbose headers   vary: 'Accept-Encoding' }
+81 silly get cb [ 304,
+81 silly get   { date: 'Mon, 31 Oct 2016 12:35:39 GMT',
+81 silly get     via: '1.1 varnish',
+81 silly get     'cache-control': 'max-age=300',
+81 silly get     etag: '"14Z5IB11ZC55P66EUSNMIZ9LS"',
+81 silly get     age: '199',
+81 silly get     connection: 'keep-alive',
+81 silly get     'x-served-by': 'cache-sin6923-SIN',
+81 silly get     'x-cache': 'HIT',
+81 silly get     'x-cache-hits': '3',
+81 silly get     'x-timer': 'S1477917339.007882,VS0,VE0',
+81 silly get     vary: 'Accept-Encoding' } ]
+82 verbose etag https://registry.npmjs.org/angular-mocks from cache
+83 verbose get saving angular-mocks to C:\Users\Shreedhar\AppData\Roaming\npm-cache\registry.npmjs.org\angular-mocks\.cache.json
+84 silly resolveWithNewModule angular-mocks@1.5.8 checking installable status
+85 silly cache add args [ 'angular-mocks@^1.5.3', null ]
+86 verbose cache add spec angular-mocks@^1.5.3
+87 silly cache add parsed spec Result {
+87 silly cache add   raw: 'angular-mocks@^1.5.3',
+87 silly cache add   scope: null,
+87 silly cache add   name: 'angular-mocks',
+87 silly cache add   rawSpec: '^1.5.3',
+87 silly cache add   spec: '>=1.5.3-0 <2.0.0-0',
+87 silly cache add   type: 'range' }
+88 silly addNamed angular-mocks@>=1.5.3-0 <2.0.0-0
+89 verbose addNamed ">=1.5.3-0 <2.0.0-0" is a valid semver range for angular-mocks
+90 silly addNameRange { name: 'angular-mocks',
+90 silly addNameRange   range: '>=1.5.3-0 <2.0.0-0',
+90 silly addNameRange   hasData: false }
+91 silly mapToRegistry name angular-mocks
+92 silly mapToRegistry using default registry
+93 silly mapToRegistry registry https://registry.npmjs.org/
+94 silly mapToRegistry uri https://registry.npmjs.org/angular-mocks
+95 verbose addNameRange registry:https://registry.npmjs.org/angular-mocks not in flight; fetching
+96 silly resolveWithNewModule angular-route@1.5.8 checking installable status
+97 silly cache add args [ 'angular-route@^1.5.3', null ]
+98 verbose cache add spec angular-route@^1.5.3
+99 silly cache add parsed spec Result {
+99 silly cache add   raw: 'angular-route@^1.5.3',
+99 silly cache add   scope: null,
+99 silly cache add   name: 'angular-route',
+99 silly cache add   rawSpec: '^1.5.3',
+99 silly cache add   spec: '>=1.5.3-0 <2.0.0-0',
+99 silly cache add   type: 'range' }
+100 silly addNamed angular-route@>=1.5.3-0 <2.0.0-0
+101 verbose addNamed ">=1.5.3-0 <2.0.0-0" is a valid semver range for angular-route
+102 silly addNameRange { name: 'angular-route',
+102 silly addNameRange   range: '>=1.5.3-0 <2.0.0-0',
+102 silly addNameRange   hasData: false }
+103 silly mapToRegistry name angular-route
+104 silly mapToRegistry using default registry
+105 silly mapToRegistry registry https://registry.npmjs.org/
+106 silly mapToRegistry uri https://registry.npmjs.org/angular-route
+107 verbose addNameRange registry:https://registry.npmjs.org/angular-route not in flight; fetching
+108 silly resolveWithNewModule bootstrap@3.3.7 checking installable status
+109 silly cache add args [ 'bootstrap@^3.3.6', null ]
+110 verbose cache add spec bootstrap@^3.3.6
+111 silly cache add parsed spec Result {
+111 silly cache add   raw: 'bootstrap@^3.3.6',
+111 silly cache add   scope: null,
+111 silly cache add   name: 'bootstrap',
+111 silly cache add   rawSpec: '^3.3.6',
+111 silly cache add   spec: '>=3.3.6-0 <4.0.0-0',
+111 silly cache add   type: 'range' }
+112 silly addNamed bootstrap@>=3.3.6-0 <4.0.0-0
+113 verbose addNamed ">=3.3.6-0 <4.0.0-0" is a valid semver range for bootstrap
+114 silly addNameRange { name: 'bootstrap',
+114 silly addNameRange   range: '>=3.3.6-0 <4.0.0-0',
+114 silly addNameRange   hasData: false }
+115 silly mapToRegistry name bootstrap
+116 silly mapToRegistry using default registry
+117 silly mapToRegistry registry https://registry.npmjs.org/
+118 silly mapToRegistry uri https://registry.npmjs.org/bootstrap
+119 verbose addNameRange registry:https://registry.npmjs.org/bootstrap not in flight; fetching
+120 http 304 https://registry.npmjs.org/angular
+121 verbose headers { date: 'Mon, 31 Oct 2016 12:35:39 GMT',
+121 verbose headers   via: '1.1 varnish',
+121 verbose headers   'cache-control': 'max-age=300',
+121 verbose headers   etag: '"8CHKXD10QU7LCUN887XZR72C"',
+121 verbose headers   age: '150',
+121 verbose headers   connection: 'keep-alive',
+121 verbose headers   'x-served-by': 'cache-sin6923-SIN',
+121 verbose headers   'x-cache': 'HIT',
+121 verbose headers   'x-cache-hits': '2',
+121 verbose headers   'x-timer': 'S1477917339.025911,VS0,VE0',
+121 verbose headers   vary: 'Accept-Encoding' }
+122 silly get cb [ 304,
+122 silly get   { date: 'Mon, 31 Oct 2016 12:35:39 GMT',
+122 silly get     via: '1.1 varnish',
+122 silly get     'cache-control': 'max-age=300',
+122 silly get     etag: '"8CHKXD10QU7LCUN887XZR72C"',
+122 silly get     age: '150',
+122 silly get     connection: 'keep-alive',
+122 silly get     'x-served-by': 'cache-sin6923-SIN',
+122 silly get     'x-cache': 'HIT',
+122 silly get     'x-cache-hits': '2',
+122 silly get     'x-timer': 'S1477917339.025911,VS0,VE0',
+122 silly get     vary: 'Accept-Encoding' } ]
+123 verbose etag https://registry.npmjs.org/angular from cache
+124 verbose get saving angular to C:\Users\Shreedhar\AppData\Roaming\npm-cache\registry.npmjs.org\angular\.cache.json
+125 verbose get https://registry.npmjs.org/angular-mocks not expired, no request
+126 silly addNameRange number 2 { name: 'angular-mocks',
+126 silly addNameRange   range: '>=1.5.3-0 <2.0.0-0',
+126 silly addNameRange   hasData: true }
+127 silly addNameRange versions [ 'angular-mocks',
+127 silly addNameRange   [ '1.2.18',
+127 silly addNameRange     '1.2.19',
+127 silly addNameRange     '1.2.20',
+127 silly addNameRange     '1.2.21',
+127 silly addNameRange     '1.2.22',
+127 silly addNameRange     '1.2.25',
+127 silly addNameRange     '1.3.0-rc.5',
+127 silly addNameRange     '1.3.0',
+127 silly addNameRange     '1.3.1',
+127 silly addNameRange     '1.3.2',
+127 silly addNameRange     '1.3.3',
+127 silly addNameRange     '1.3.4-build.3588',
+127 silly addNameRange     '1.2.27',
+127 silly addNameRange     '1.3.4',
+127 silly addNameRange     '1.3.5',
+127 silly addNameRange     '1.3.6',
+127 silly addNameRange     '1.3.7',
+127 silly addNameRange     '1.2.28',
+127 silly addNameRange     '1.3.8',
+127 silly addNameRange     '1.4.0-beta.0',
+127 silly addNameRange     '1.3.9',
+127 silly addNameRange     '1.3.10',
+127 silly addNameRange     '1.4.0-beta.1',
+127 silly addNameRange     '1.4.0-beta.2',
+127 silly addNameRange     '1.3.11',
+127 silly addNameRange     '1.4.0-beta.3',
+127 silly addNameRange     '1.3.12',
+127 silly addNameRange     '1.3.13',
+127 silly addNameRange     '1.4.0-beta.4',
+127 silly addNameRange     '1.3.14',
+127 silly addNameRange     '1.4.0-beta.5',
+127 silly addNameRange     '1.4.0-beta.6',
+127 silly addNameRange     '1.3.15',
+127 silly addNameRange     '1.4.0-rc.0',
+127 silly addNameRange     '1.4.0-rc.1',
+127 silly addNameRange     '1.4.0-rc.2',
+127 silly addNameRange     '1.4.0',
+127 silly addNameRange     '1.3.16',
+127 silly addNameRange     '1.4.1',
+127 silly addNameRange     '1.4.2',
+127 silly addNameRange     '1.3.17',
+127 silly addNameRange     '1.4.3',
+127 silly addNameRange     '1.4.4',
+127 silly addNameRange     '1.3.18',
+127 silly addNameRange     '1.4.5',
+127 silly addNameRange     '1.3.19',
+127 silly addNameRange     '1.4.6',
+127 silly addNameRange     '1.5.0-beta.0',
+127 silly addNameRange     '1.2.29',
+127 silly addNameRange     '1.3.20',
+127 silly addNameRange     '1.4.7',
+127 silly addNameRange     '1.5.0-beta.2',
+127 silly addNameRange     '1.4.8',
+127 silly addNameRange     '1.5.0-rc.0',
+127 silly addNameRange     '1.5.0-rc.1',
+127 silly addNameRange     '1.4.9',
+127 silly addNameRange     '1.5.0-rc.2',
+127 silly addNameRange     '1.5.0',
+127 silly addNameRange     '1.5.1',
+127 silly addNameRange     '1.4.10',
+127 silly addNameRange     '1.5.2',
+127 silly addNameRange     '1.5.3',
+127 silly addNameRange     '1.5.5',
+127 silly addNameRange     '1.4.11',
+127 silly addNameRange     '1.5.6',
+127 silly addNameRange     '1.4.12',
+127 silly addNameRange     '1.5.7',
+127 silly addNameRange     '1.2.30',
+127 silly addNameRange     '1.5.8',
+127 silly addNameRange     '1.4.13',
+127 silly addNameRange     '1.2.31',
+127 silly addNameRange     '1.2.32',
+127 silly addNameRange     '1.4.14',
+127 silly addNameRange     '1.6.0-rc.0' ] ]
+128 silly addNamed angular-mocks@1.5.8
+129 verbose addNamed "1.5.8" is a plain semver version for angular-mocks
+130 verbose get https://registry.npmjs.org/bootstrap not expired, no request
+131 silly addNameRange number 2 { name: 'bootstrap', range: '>=3.3.6-0 <4.0.0-0', hasData: true }
+132 silly addNameRange versions [ 'bootstrap',
+132 silly addNameRange   [ '0.0.1',
+132 silly addNameRange     '0.0.2',
+132 silly addNameRange     '3.1.1',
+132 silly addNameRange     '3.2.0',
+132 silly addNameRange     '3.3.0',
+132 silly addNameRange     '3.3.1',
+132 silly addNameRange     '3.3.2',
+132 silly addNameRange     '3.3.4',
+132 silly addNameRange     '3.3.5',
+132 silly addNameRange     '3.3.6',
+132 silly addNameRange     '4.0.0-alpha.2',
+132 silly addNameRange     '3.3.7',
+132 silly addNameRange     '4.0.0-alpha.3',
+132 silly addNameRange     '4.0.0-alpha.4',
+132 silly addNameRange     '4.0.0-alpha.5' ] ]
+133 silly addNamed bootstrap@3.3.7
+134 verbose addNamed "3.3.7" is a plain semver version for bootstrap
+135 verbose get https://registry.npmjs.org/angular-route not expired, no request
+136 silly addNameRange number 2 { name: 'angular-route',
+136 silly addNameRange   range: '>=1.5.3-0 <2.0.0-0',
+136 silly addNameRange   hasData: true }
+137 silly addNameRange versions [ 'angular-route',
+137 silly addNameRange   [ '1.2.17-build.163.1',
+137 silly addNameRange     '1.3.0-rc.5',
+137 silly addNameRange     '1.3.0',
+137 silly addNameRange     '1.3.1',
+137 silly addNameRange     '1.3.2',
+137 silly addNameRange     '1.3.3',
+137 silly addNameRange     '1.3.4-build.3588',
+137 silly addNameRange     '1.2.27',
+137 silly addNameRange     '1.3.4',
+137 silly addNameRange     '1.3.5',
+137 silly addNameRange     '1.3.6',
+137 silly addNameRange     '1.3.7',
+137 silly addNameRange     '1.2.28',
+137 silly addNameRange     '1.3.8',
+137 silly addNameRange     '1.4.0-beta.0',
+137 silly addNameRange     '1.3.9',
+137 silly addNameRange     '1.3.10',
+137 silly addNameRange     '1.4.0-beta.1',
+137 silly addNameRange     '1.4.0-beta.2',
+137 silly addNameRange     '1.3.11',
+137 silly addNameRange     '1.4.0-beta.3',
+137 silly addNameRange     '1.3.12',
+137 silly addNameRange     '1.3.13',
+137 silly addNameRange     '1.4.0-beta.4',
+137 silly addNameRange     '1.3.14',
+137 silly addNameRange     '1.4.0-beta.5',
+137 silly addNameRange     '1.4.0-beta.6',
+137 silly addNameRange     '1.3.15',
+137 silly addNameRange     '1.4.0-rc.0',
+137 silly addNameRange     '1.4.0-rc.1',
+137 silly addNameRange     '1.4.0-rc.2',
+137 silly addNameRange     '1.4.0',
+137 silly addNameRange     '1.3.16',
+137 silly addNameRange     '1.4.1',
+137 silly addNameRange     '1.4.2',
+137 silly addNameRange     '1.3.17',
+137 silly addNameRange     '1.4.3',
+137 silly addNameRange     '1.4.4',
+137 silly addNameRange     '1.3.18',
+137 silly addNameRange     '1.4.5',
+137 silly addNameRange     '1.3.19',
+137 silly addNameRange     '1.4.6',
+137 silly addNameRange     '1.5.0-beta.0',
+137 silly addNameRange     '1.2.29',
+137 silly addNameRange     '1.3.20',
+137 silly addNameRange     '1.4.7',
+137 silly addNameRange     '1.5.0-beta.2',
+137 silly addNameRange     '1.4.8',
+137 silly addNameRange     '1.5.0-rc.0',
+137 silly addNameRange     '1.5.0-rc.1',
+137 silly addNameRange     '1.4.9',
+137 silly addNameRange     '1.5.0-rc.2',
+137 silly addNameRange     '1.5.0',
+137 silly addNameRange     '1.5.1',
+137 silly addNameRange     '1.4.10',
+137 silly addNameRange     '1.5.2',
+137 silly addNameRange     '1.5.3',
+137 silly addNameRange     '1.5.5',
+137 silly addNameRange     '1.4.11',
+137 silly addNameRange     '1.5.6',
+137 silly addNameRange     '1.4.12',
+137 silly addNameRange     '1.5.7',
+137 silly addNameRange     '1.2.30',
+137 silly addNameRange     '1.5.8',
+137 silly addNameRange     '1.4.13',
+137 silly addNameRange     '1.2.31',
+137 silly addNameRange     '1.2.32',
+137 silly addNameRange     '1.4.14',
+137 silly addNameRange     '1.6.0-rc.0' ] ]
+138 silly addNamed angular-route@1.5.8
+139 verbose addNamed "1.5.8" is a plain semver version for angular-route
+140 silly cache afterAdd angular-mocks@1.5.8
+141 verbose afterAdd C:\Users\Shreedhar\AppData\Roaming\npm-cache\angular-mocks\1.5.8\package\package.json not in flight; writing
+142 silly cache afterAdd bootstrap@3.3.7
+143 verbose afterAdd C:\Users\Shreedhar\AppData\Roaming\npm-cache\bootstrap\3.3.7\package\package.json not in flight; writing
+144 silly cache afterAdd angular-route@1.5.8
+145 verbose afterAdd C:\Users\Shreedhar\AppData\Roaming\npm-cache\angular-route\1.5.8\package\package.json not in flight; writing
+146 silly resolveWithNewModule angular@1.5.8 checking installable status
+147 silly cache add args [ 'angular@^1.5.3', null ]
+148 verbose cache add spec angular@^1.5.3
+149 silly cache add parsed spec Result {
+149 silly cache add   raw: 'angular@^1.5.3',
+149 silly cache add   scope: null,
+149 silly cache add   name: 'angular',
+149 silly cache add   rawSpec: '^1.5.3',
+149 silly cache add   spec: '>=1.5.3-0 <2.0.0-0',
+149 silly cache add   type: 'range' }
+150 silly addNamed angular@>=1.5.3-0 <2.0.0-0
+151 verbose addNamed ">=1.5.3-0 <2.0.0-0" is a valid semver range for angular
+152 silly addNameRange { name: 'angular', range: '>=1.5.3-0 <2.0.0-0', hasData: false }
+153 silly mapToRegistry name angular
+154 silly mapToRegistry using default registry
+155 silly mapToRegistry registry https://registry.npmjs.org/
+156 silly mapToRegistry uri https://registry.npmjs.org/angular
+157 verbose addNameRange registry:https://registry.npmjs.org/angular not in flight; fetching
+158 verbose get https://registry.npmjs.org/angular not expired, no request
+159 silly addNameRange number 2 { name: 'angular', range: '>=1.5.3-0 <2.0.0-0', hasData: true }
+160 silly addNameRange versions [ 'angular',
+160 silly addNameRange   [ '0.0.1',
+160 silly addNameRange     '0.0.1-1',
+160 silly addNameRange     '0.0.1-2',
+160 silly addNameRange     '0.0.2',
+160 silly addNameRange     '0.0.3',
+160 silly addNameRange     '0.0.4',
+160 silly addNameRange     '1.0.0',
+160 silly addNameRange     '1.0.1',
+160 silly addNameRange     '1.0.2',
+160 silly addNameRange     '1.0.3',
+160 silly addNameRange     '1.0.4',
+160 silly addNameRange     '1.0.5',
+160 silly addNameRange     '1.0.6',
+160 silly addNameRange     '1.0.7',
+160 silly addNameRange     '1.0.8',
+160 silly addNameRange     '1.1.0',
+160 silly addNameRange     '1.1.1',
+160 silly addNameRange     '1.1.2',
+160 silly addNameRange     '1.1.3',
+160 silly addNameRange     '1.1.4',
+160 silly addNameRange     '1.1.5',
+160 silly addNameRange     '1.2.0',
+160 silly addNameRange     '1.2.1',
+160 silly addNameRange     '1.2.2',
+160 silly addNameRange     '1.2.3',
+160 silly addNameRange     '1.2.4',
+160 silly addNameRange     '1.2.5',
+160 silly addNameRange     '1.2.6',
+160 silly addNameRange     '1.2.7',
+160 silly addNameRange     '1.2.8',
+160 silly addNameRange     '1.2.9',
+160 silly addNameRange     '1.2.10',
+160 silly addNameRange     '1.2.11',
+160 silly addNameRange     '1.2.12',
+160 silly addNameRange     '1.2.13',
+160 silly addNameRange     '1.2.14',
+160 silly addNameRange     '1.2.15',
+160 silly addNameRange     '1.2.16',
+160 silly addNameRange     '1.2.17',
+160 silly addNameRange     '1.2.18',
+160 silly addNameRange     '1.2.19',
+160 silly addNameRange     '1.2.20',
+160 silly addNameRange     '1.2.21',
+160 silly addNameRange     '1.2.22',
+160 silly addNameRange     '1.2.23',
+160 silly addNameRange     '1.3.0-rc.5',
+160 silly addNameRange     '1.3.0',
+160 silly addNameRange     '1.3.1',
+160 silly addNameRange     '1.3.2',
+160 silly addNameRange     '1.3.3',
+160 silly addNameRange     '1.3.4-build.3588',
+160 silly addNameRange     '1.2.27',
+160 silly addNameRange     '1.3.4',
+160 silly addNameRange     '1.3.5',
+160 silly addNameRange     '1.3.6',
+160 silly addNameRange     '1.3.7',
+160 silly addNameRange     '1.2.28',
+160 silly addNameRange     '1.3.8',
+160 silly addNameRange     '1.4.0-beta.0',
+160 silly addNameRange     '1.3.9',
+160 silly addNameRange     '1.3.10',
+160 silly addNameRange     '1.4.0-beta.1',
+160 silly addNameRange     '1.4.0-beta.2',
+160 silly addNameRange     '1.3.11',
+160 silly addNameRange     '1.4.0-beta.3',
+160 silly addNameRange     '1.3.12',
+160 silly addNameRange     '1.3.13',
+160 silly addNameRange     '1.4.0-beta.4',
+160 silly addNameRange     '1.3.14',
+160 silly addNameRange     '1.4.0-beta.5',
+160 silly addNameRange     '1.4.0-beta.6',
+160 silly addNameRange     '1.3.15',
+160 silly addNameRange     '1.4.0-rc.0',
+160 silly addNameRange     '1.4.0-rc.1',
+160 silly addNameRange     '1.4.0-rc.2',
+160 silly addNameRange     '1.4.0',
+160 silly addNameRange     '1.3.16',
+160 silly addNameRange     '1.4.1',
+160 silly addNameRange     '1.4.2',
+160 silly addNameRange     '1.3.17',
+160 silly addNameRange     '1.4.3',
+160 silly addNameRange     '1.4.4',
+160 silly addNameRange     '1.3.18',
+160 silly addNameRange     '1.4.5',
+160 silly addNameRange     '1.3.19',
+160 silly addNameRange     '1.4.6',
+160 silly addNameRange     '1.5.0-beta.0',
+160 silly addNameRange     '1.2.29',
+160 silly addNameRange     '1.3.20',
+160 silly addNameRange     '1.4.7',
+160 silly addNameRange     '1.5.0-beta.2',
+160 silly addNameRange     '1.4.8',
+160 silly addNameRange     '1.5.0-rc.0',
+160 silly addNameRange     '1.5.0-rc.1',
+160 silly addNameRange     '1.4.9',
+160 silly addNameRange     '1.5.0-rc.2',
+160 silly addNameRange     '1.5.0',
+160 silly addNameRange     '1.5.1',
+160 silly addNameRange     '1.4.10',
+160 silly addNameRange     '1.5.2',
+160 silly addNameRange     '1.5.3',
+160 silly addNameRange     '1.5.5',
+160 silly addNameRange     '1.4.11',
+160 silly addNameRange     '1.5.6',
+160 silly addNameRange     '1.4.12',
+160 silly addNameRange     '1.5.7',
+160 silly addNameRange     '1.2.30',
+160 silly addNameRange     '1.5.8',
+160 silly addNameRange     '1.4.13',
+160 silly addNameRange     '1.2.31',
+160 silly addNameRange     '1.2.32',
+160 silly addNameRange     '1.4.14',
+160 silly addNameRange     '1.6.0-rc.0' ] ]
+161 silly addNamed angular@1.5.8
+162 verbose addNamed "1.5.8" is a plain semver version for angular
+163 verbose afterAdd C:\Users\Shreedhar\AppData\Roaming\npm-cache\angular-mocks\1.5.8\package\package.json written
+164 verbose afterAdd C:\Users\Shreedhar\AppData\Roaming\npm-cache\bootstrap\3.3.7\package\package.json written
+165 verbose afterAdd C:\Users\Shreedhar\AppData\Roaming\npm-cache\angular-route\1.5.8\package\package.json written
+166 silly cache afterAdd angular@1.5.8
+167 verbose afterAdd C:\Users\Shreedhar\AppData\Roaming\npm-cache\angular\1.5.8\package\package.json not in flight; writing
+168 verbose afterAdd C:\Users\Shreedhar\AppData\Roaming\npm-cache\angular\1.5.8\package\package.json written
+169 http 404 https://registry.npmjs.org/angular-component-router
+170 verbose headers { 'content-type': 'application/json',
+170 verbose headers   'cache-control': 'max-age=0',
+170 verbose headers   'content-length': '2',
+170 verbose headers   'accept-ranges': 'bytes',
+170 verbose headers   date: 'Mon, 31 Oct 2016 12:35:40 GMT',
+170 verbose headers   via: '1.1 varnish',
+170 verbose headers   age: '0',
+170 verbose headers   connection: 'keep-alive',
+170 verbose headers   'x-served-by': 'cache-sin6922-SIN',
+170 verbose headers   'x-cache': 'MISS',
+170 verbose headers   'x-cache-hits': '0',
+170 verbose headers   'x-timer': 'S1477917339.001304,VS0,VE1019',
+170 verbose headers   vary: 'Accept-Encoding' }
+171 silly get cb [ 404,
+171 silly get   { 'content-type': 'application/json',
+171 silly get     'cache-control': 'max-age=0',
+171 silly get     'content-length': '2',
+171 silly get     'accept-ranges': 'bytes',
+171 silly get     date: 'Mon, 31 Oct 2016 12:35:40 GMT',
+171 silly get     via: '1.1 varnish',
+171 silly get     age: '0',
+171 silly get     connection: 'keep-alive',
+171 silly get     'x-served-by': 'cache-sin6922-SIN',
+171 silly get     'x-cache': 'MISS',
+171 silly get     'x-cache-hits': '0',
+171 silly get     'x-timer': 'S1477917339.001304,VS0,VE1019',
+171 silly get     vary: 'Accept-Encoding' } ]
+172 silly fetchPackageMetaData Error: Registry returned 404 for GET on https://registry.npmjs.org/angular-component-router
+172 silly fetchPackageMetaData     at makeError (C:\Program Files (x86)\Microsoft Visual Studio 14.0\Web\External\node_modules\npm-registry-client\lib\request.js:264:12)
+172 silly fetchPackageMetaData     at CachingRegistryClient.<anonymous> (C:\Program Files (x86)\Microsoft Visual Studio 14.0\Web\External\node_modules\npm-registry-client\lib\request.js:242:14)
+172 silly fetchPackageMetaData     at Request._callback (C:\Program Files (x86)\Microsoft Visual Studio 14.0\Web\External\node_modules\npm-registry-client\lib\request.js:172:14)
+172 silly fetchPackageMetaData     at Request.self.callback (C:\Program Files (x86)\Microsoft Visual Studio 14.0\Web\External\node_modules\request\request.js:344:22)
+172 silly fetchPackageMetaData     at emitTwo (events.js:87:13)
+172 silly fetchPackageMetaData     at Request.emit (events.js:172:7)
+172 silly fetchPackageMetaData     at Request.<anonymous> (C:\Program Files (x86)\Microsoft Visual Studio 14.0\Web\External\node_modules\request\request.js:1239:14)
+172 silly fetchPackageMetaData     at emitOne (events.js:82:20)
+172 silly fetchPackageMetaData     at Request.emit (events.js:169:7)
+172 silly fetchPackageMetaData     at IncomingMessage.<anonymous> (C:\Program Files (x86)\Microsoft Visual Studio 14.0\Web\External\node_modules\request\request.js:1187:12)
+172 silly fetchPackageMetaData  error for angular-component-router@^0.2.1 { [Error: Registry returned 404 for GET on https://registry.npmjs.org/angular-component-router]
+172 silly fetchPackageMetaData   pkgid: 'angular-component-router',
+172 silly fetchPackageMetaData   statusCode: 404,
+172 silly fetchPackageMetaData   code: 'E404' }
+173 silly rollbackFailedOptional Starting
+174 silly rollbackFailedOptional Finishing
+175 silly runTopLevelLifecycles Starting
+176 silly runTopLevelLifecycles Finishing
+177 silly install printInstalled
+178 verbose stack Error: Registry returned 404 for GET on https://registry.npmjs.org/angular-component-router
+178 verbose stack     at makeError (C:\Program Files (x86)\Microsoft Visual Studio 14.0\Web\External\node_modules\npm-registry-client\lib\request.js:264:12)
+178 verbose stack     at CachingRegistryClient.<anonymous> (C:\Program Files (x86)\Microsoft Visual Studio 14.0\Web\External\node_modules\npm-registry-client\lib\request.js:242:14)
+178 verbose stack     at Request._callback (C:\Program Files (x86)\Microsoft Visual Studio 14.0\Web\External\node_modules\npm-registry-client\lib\request.js:172:14)
+178 verbose stack     at Request.self.callback (C:\Program Files (x86)\Microsoft Visual Studio 14.0\Web\External\node_modules\request\request.js:344:22)
+178 verbose stack     at emitTwo (events.js:87:13)
+178 verbose stack     at Request.emit (events.js:172:7)
+178 verbose stack     at Request.<anonymous> (C:\Program Files (x86)\Microsoft Visual Studio 14.0\Web\External\node_modules\request\request.js:1239:14)
+178 verbose stack     at emitOne (events.js:82:20)
+178 verbose stack     at Request.emit (events.js:169:7)
+178 verbose stack     at IncomingMessage.<anonymous> (C:\Program Files (x86)\Microsoft Visual Studio 14.0\Web\External\node_modules\request\request.js:1187:12)
+179 verbose statusCode 404
+180 verbose pkgid angular-component-router
+181 verbose cwd c:\users\shreedhar\documents\visual studio 2015\Projects\Smartpark.Admin\Smartpark.Admin
+182 error Windows_NT 10.0.10240
+183 error argv "C:\\Program Files (x86)\\Microsoft Visual Studio 14.0\\Web\\External\\node.exe" "C:\\Program Files (x86)\\Microsoft Visual Studio 14.0\\Web\\External\\node_modules\\npm\\bin\\npm-cli.js" "install"
+184 error node v5.4.1
+185 error npm  v3.3.4
+186 error code E404
+187 error 404 Registry returned 404 for GET on https://registry.npmjs.org/angular-component-router
+187 error 404
+187 error 404 'angular-component-router' is not in the npm registry.
+187 error 404 You should bug the author to publish it (or use the name yourself!)
+187 error 404 It was specified as a dependency of 'asp.net'
+187 error 404
+187 error 404 Note that you can also install from a
+187 error 404 tarball, folder, http url, or git url.
+188 verbose exit [ 1, true ]

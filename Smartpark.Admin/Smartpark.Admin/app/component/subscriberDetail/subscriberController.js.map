@@ -1,0 +1,1 @@
+{"version":3,"file":"subscriberController.js","sourceRoot":"","sources":["subscriberController.ts"],"names":[],"mappings":"AAOA;IAKI;QACI,IAAI,CAAC,WAAW,GAAG,EAAE,CAAC;QACtB,IAAI,CAAC,WAAW,GAAG,CAAC,CAAC;IACzB,CAAC;IAED,qCAAG,GAAH;IAEA,CAAC;IAEL,8BAAC;AAAD,CAAC,AAdD,IAcC;AACD,OAAO,CAAC,MAAM,CAAC,WAAW,CAAC,CAAC,SAAS,CAAC,eAAe,EAAE,IAAI,uBAAuB,EAAE,CAAC,CAAC"}
