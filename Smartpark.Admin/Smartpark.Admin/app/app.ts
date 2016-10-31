@@ -1,1 +1,5 @@
-﻿angular.module("smartpark", ["ngComponentRouter"]);
+﻿
+
+var module = angular.module("smartpark", ["ngComponentRouter"]);
+
+ 
